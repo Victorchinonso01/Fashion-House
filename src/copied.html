@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header
+      class="flex justify-between px-10 md:px-0 md:justify-around h-20 items-center"
+    >
+      <img src="./images/logo.png" alt="logo" class="w-32 h-10" />
+      <nav class="hidden md:block">
+        <a href="#" class="mx-3 hover:text-red-500">home</a>
+        <a href="#" class="mx-3 hover:text-red-500">shop</a>
+        <a href="#" class="mx-3 hover:text-red-500">catalogue</a>
+        <a href="#" class="mx-3 hover:text-red-500">New Arrival</a>
+        <a href="#" class="mx-3 hover:text-red-500">Contact</a>
+      </nav>
+      <div
+        id="menu"
+        class="flex justify-center items-center border-2 border-gray-200 px-4 md:hidden"
+      >
+        <span>&#9776;</span>
+      </div>
+      <div id="icons" class="hidden md:block">
+        <i class="mx-5 bi bi-search"></i>
+        <i class="mx-5 bi bi-heart"></i>
+        <i class="mx-5 bi bi-bag"></i>
+      </div>
+    </header>
+    <main
+      class="h-screen flex md:bg-slate-50 bg-gradient-to-r from-stone-800 to-stone-700 md:bg-none"
+    >
+      <img
+        src="./images/landing.png"
+        alt="landing"
+        class="h-screen md:w-1/2 w-screen"
+      />
+      <section
+        class="flex flex-col h-screen w-screen md:w-1/2 justify-center items-center absolute md:relative"
+      >
+        <p class="text-white md:text-gray-900 trackig-wide">
+          #NEW SUMMER COLLECTIONS 2021
+        </p>
+        <h1
+          class="text-white text-center md:text-gray-900 text-6xl font-bold tracking-wider my-5"
+        >
+          ARRIVAL SALES
+        </h1>
+        <button class="bg-gray-900 p-2 text-white hover:bg-gray-950">
+          SHOP NOW
+        </button>
+      </section>
+    </main>
+    <section id="discover" class="py-20 px-20 md:px-32 min-h-screen">
+      <div class="border-l-4 border-red-600">
+        <h1 class="ml-5 font-bold text-2xl text-gray-900">
+          DISCOVER <br />THE COLLECTIONS
+        </h1>
+      </div>
+
+      <section
+        class="grid md:grid-cols-[65%, 35%] 2xl:grid-cols-[100] md:grid-rows-[auto_auto] gap-5 mt-10"
+      >
+        <figure
+          class="md:col-start-1 md:col-span-1 md:row-start-1 md:row-span-2 bg-slate-50 flex justify-center items-center"
+        >
+          <figcaption
+            class="absolute p-5 bg-white hover:bg-gray-900 hover:text-white delay-300 ease-in"
+          >
+            <p>Women <small class="text-gray-400">25 Items</small></p>
+          </figcaption>
+          <img src="./images/woman.png" alt="woman" class="h-screen" />
+        </figure>
+
+        <figure
+          class="md:col-start-2 md:col-span-1 md:row-start-1 md:row-span-1 bg-slate-50 flex justify-center items-center"
+        >
+          <figcaption
+            class="absolute p-5 bg-white hover:bg-gray-900 hover:text-white delay-300 ease-in"
+          >
+            <p>Men <small class="text-gray-400">25 Items</small></p>
+          </figcaption>
+          <img src="./images/man.png" alt="woman" class="h-[50vh]" />
+        </figure>
+
+        <figure
+          class="md:col-start-2 md:col-span-1 md:row-start-2 md:row-span-1 bg-slate-50 flex justify-center items-center"
+        >
+          <figcaption
+            class="absolute p-5 bg-white hover:bg-gray-900 hover:text-white delay-300 ease-in"
+          >
+            <p>Shoes <small class="text-gray-400">25 Items</small></p>
+          </figcaption>
+          <img src="./images/shoes.png" alt="woman" class="h-[50vh]" />
+        </figure>
+      </section>
+    </section>
+
+    <section
+      id="Popular_Products"
+      class=" py-10 px-20 md:px-32 min-h-screen"
+    >
+      <div class="border-l-4 border-red-600">
+        <h1 class="ml-5 font-bold text-2xl text-gray-900">POPULAR PRODUCTS</h1>
+      </div>
+
+      <section class="grid md:grid-cols-3 2xl:grid-cols-[100] gap-5 mt-10">
+        <!-- ...................First Figure................. -->
+
+        <figure>
+          <div class="bg-slate-50 flex justify-center items-center h-96">
+            <img src="./images/gray shoe.png" alt="woman" class="h-60" />
+          </div>
+          <figcaption class="">
+            <p class="text-gray-500">Brown Shoe</p>
+            <b>$20.00</b>
+          </figcaption>
+        </figure>
+
+        <!-- ...................Second Figure................. -->
+
+        <figure>
+          <div class="bg-slate-50 flex justify-center items-center h-96">
+            <img src="./images/blue shoe.png" alt="blue shoe" class="h-60" />
+          </div>
+          <figcaption class="">
+            <p class="text-gray-500">Blue Shoe</p>
+            <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+          </figcaption>
+        </figure>
+
+        <!-- .....................Third Figure.................. -->
+
+        <figure>
+          <div class="bg-slate-50 flex justify-center items-center h-96">
+            <img src="./images/jacket.png" alt="blue shoe" class="h-60" />
+          </div>
+          <figcaption class="">
+            <p class="text-gray-500">Denim Jacket</p>
+            <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+          </figcaption>
+        </figure>
+
+        <!-- ..................Fourth Figure.................. -->
+
+        <figure>
+          <div class="bg-slate-50 flex justify-center items-center h-96">
+            <img src="./images/bag.png" alt="blue shoe" class="h-60" />
+          </div>
+          <figcaption class="">
+            <p class="text-gray-500">Leather Fancy Bag</p>
+            <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+          </figcaption>
+        </figure>
+
+        <!-- .................Fifth Figure................... -->
+
+        <figure>
+          <div class="bg-slate-50 flex justify-center items-center h-96">
+            <img src="./images/smooth cloth.png" alt="blue shoe" class="h-72" />
+          </div>
+          <figcaption class="">
+            <p class="text-gray-500">Smooth Cloth</p>
+            <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+          </figcaption>
+        </figure>
+
+        <!-- ......................Sixth Figure................. -->
+
+        <figure>
+          <div class="bg-slate-50 flex justify-center items-center h-96">
+            <img
+              src="./images/yellow jacket.png"
+              alt="blue shoe"
+              class="h-96"
+            />
+          </div>
+          <figcaption class="">
+            <p class="text-gray-500">Yellow Jacket</p>
+            <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+          </figcaption>
+        </figure>
+      </section>
+    </section>
+
+    <section id="most rated" class="py-10 px-20 md:px-32 min-h-screen">
+      <div class="flex items-center justify-center content-center w-auto">
+        <h1 class="ml-6 font-bold text-2xl text-gray-900">MOST RATED</h1>
+      </div>
+      <div class="flex items-center justify-center content-center w-auto">
+        <div class="border-b-4 border-red-600 w-16 mt-4"></div>
+      </div>
+
+      <section class="grid md:grid-cols-3 2xl:grid-cols-[100] gap-5 mt-10">
+        <!-- ..................Fourth Figure.................. -->
+
+        <figure>
+          <div class="bg-slate-50 flex justify-center items-center h-96">
+            <img src="./images/smooth cloth.png" alt="blue shoe" class="h-60" />
+          </div>
+          <figcaption class="">
+            <p class="text-gray-500">Smooth Cloth</p>
+            <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+          </figcaption>
+        </figure>
+
+        <!-- .................Fifth Figure................... -->
+
+        <figure>
+          <div class="bg-slate-50 flex justify-center items-center h-96">
+            <img src="./images/blue shoe.png" alt="blue shoe" class="h-72" />
+          </div>
+          <figcaption class="">
+            <p class="text-gray-500">Blue Shoe High Heels</p>
+            <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+          </figcaption>
+        </figure>
+
+        <!-- ......................Sixth Figure................. -->
+
+        <figure>
+          <div class="bg-slate-50 flex justify-center items-center h-96">
+            <img src="./images/jacket.png" alt="blue shoe" class="h-96" />
+          </div>
+          <figcaption class="">
+            <p class="text-gray-500">Denim Jacket</p>
+            <p><del class="text-gray-500">$46.00</del> <b>$20.00</b></p>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+            <i class="bi bi-star-fill" style="color: rgb(255, 197, 8)"></i>
+          </figcaption>
+        </figure>
+      </section>
+    </section>
+
+    <section
+      class="h-[30rem] flex justify-around md:bg-slate-50 bg-gradient-to-r from-stone-800 to-stone-700 md:bg-none"
+    >
+    <div class="w-1/2 flex justify-center">
+      <img
+        src="./images/shoes.png"
+        alt="landing"
+        class="h-[30rem] absolute md:h-full md:1/2 md:relative"
+      />
+      </div>
+      <section
+        class="flex flex-col h-96 w-screen md:w-1/2 justify-center items-center absolute md:relative"
+      >
+        <p class=" text-center text-white md:text-gray-900 tracking-wide">
+          #NEW SUMMER COLLECTIONS 2023
+        </p>
+        <h1
+          class="text-white text-center md:text-gray-900 text-6xl font-bold tracking-wider my-5"
+        >
+          NEW SHOES
+        </h1>
+        <button class="bg-gray-900 p-2 w-32 rounded-lg text-white hover:bg-gray-950">
+          SHOP NOW
+        </button>
+      </section>
+    </section>
+
+    <!-- <section id="shirts" class="flex justify-around py-28 px-36 md:flex-row flex-col">
+      <div>
+        <h3 class="font-semibold">PROMO</h3>
+        <img src="./images/shirts.jpg" alt="shirts" class="h-44 w-80" />
+        <p class="text-red-600">Finding Your Perfect Shirts This <br />Summer</p>
+        <p class="text-gray-500">promo from April 15-12, 2023</p>
+      </div>
+      <div class="w-1/3 mt-6">
+        <h3 class="font-semibold">QUICK LINKS</h3>
+        <figure class="text-gray-500 gap-3 mb-5 grid md:grid-cols-3">
+           <p>Sell Online</p>
+            <p>Commerce</p>
+            <p>Point of Selles</p>
+            <p>Feautres</p>
+            <p>Dropshopping</p>
+            <p>Heardware</p>
+            <p>Shopping Cart</p>
+            <p>Website Devlopment</p>
+            <p>Software</p>
+            <p>Storebuilder</p>
+        </figure>
+      </div>
+
+      <div class="">
+        <h3 class="font-semibold">CONTACT INFO</h3>
+        <nav class="flex flex-col items-start gap-10">
+          <button>
+            <i class="bi bi-geo-alt-fill" style="color: red"></i
+            ><span> 7 Factory rd. Aba, Abia State, Nigeria</span>
+          </button>
+          <button>
+            <i class="bi bi-telephone-fill" style="color: red;"></i><span> +2348162088517</span>
+          </button>
+          <button>
+            <i class="bi bi-envelope-fill" style="color: red;"></i
+            ><span> victorchinonso025@gmail.com</span>
+          </button>
+        </nav>  
+        <div class="mt-14 rounded-sm">
+          <p class="">SUBSCRIBE</p>
+          <figure class="flex justify-between rounded-sm pt-1 hover:border-red-600 hover:border w-96 relative mt-4 border">
+          <input type="Email" placeholder="Email" class="p-2 outline-none w-72 relative" />
+          <button type="submit" class="bg-red-500 text-white p-1 px-4">Send</button>
+          </figure>
+          </div>
+        </div>
+    </section>
+    <footer class="flex justify-center text-gray-500 mt-20 mb-5">Copyright &copy;2021 All Rights Reserved | Victor Chinonso</footer> -->
+
+<section id="new_summer" class="ml-8 mt-20 md:h-[33rem] md:mx-32 md:flex ">
+    <Section class="w-1/3">
+        <h3 class="font-semibold text-zinc-900">PROMO</h3>
+        <img src="./images/shirts.jpg" alt="shirts" class="md:h-44 rounded-md my-5 relative">
+        <p class="text-red-600 hover:bg-black hover: delay-200 ease-in-out duration-700 ">Finding Your Perfect Shirts This <br> Summer <br>
+        <small class="text-gray-500">Promo from April 15-25, 2021</small></p>
+        
+    </Section>
+    <section class="w-1/3 md:ml-8 mt-6">
+        <h3 class="font-semibold text-zinc-900 mb-5">QUICK LINKS</h3>
+        <div class="grid md:grid-cols-3">
+            <span class="mb-5 ml- text-gray-500">Sell Online</span>
+            <span class="mb-5 md:ml-2 text-gray-500">Commerce</span>
+            <span class="mb-5 md:ml-2 text-gray-500">Point of sale</span>
+            <span class="mb-5 ml- text-gray-500">Features</span>
+            <span class="mb-5 md:ml-2 text-gray-500">Dropshipping</span>
+            <span class="mb-5 md:ml-2 text-gray-500">Hardware</span>
+            <span class="mb-5 ml- text-gray-500">Shopping cart</span>
+            <span class="mb-5 md:ml-2 text-gray-500">Website <br> development</span>
+            <span class="mb-5 md:ml-2 text-gray-500">Software</span>
+            <span class="mb-5 ml- text-gray-500">Store builder</span>
+        </div>
+    </section>
+    <section id="bottom" class="md:w-1/3 mb-5 md:ml-7">
+        <h3 class="font-semibold text-zinc-900 mb-7 ">CONTACT INFO</h3>
+        <i class="bi bi-geo-alt-fill fill-red-700" style="color: red;"></i> <span>7 Factory Rd. Aba, Abia State, Nigeria.</span> <br> <br>
+        <i class="bi bi-telephone-fill" style="color: red;"></i> <span>+234 8162088517</span> <br><br>
+        <i class="bi bi-envelope-fill" style="color: red;"></i> <span>victorchinonso025@gmail.com</span>
+        <div class="mt-14 rounded-sm">
+            <p>SUBSCRIBE</p>
+            <div class="flex justify-between rounded-sm border p-1 mt-4 hover:border-red-600 hover:border w-96 relative">
+                <input type="email" placeholder="Email" class="p-2 outline-none w-72 relative md:w-40">
+                <button type="submit" class="bg-red-500 text-white rounded-sm p-1 px-4">Send</button>
+            </div>
+        </div>
+    </section>
+</section>
+<footer class="flex justify-center mt-20">
+    <p class="text-gray-500 mb-3">Copyright &copy;2023 All rights reserved  |  Victor</p>
+</footer>
+
+  </body>
+</html>
